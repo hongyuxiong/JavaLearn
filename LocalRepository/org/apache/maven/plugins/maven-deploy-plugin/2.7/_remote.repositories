@@ -1,6 +1,0 @@
-#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Sat Dec 28 17:14:35 GMT+08:00 2019
-maven-deploy-plugin-2.7.jar>private-central=
-maven-deploy-plugin-2.7.pom>central=
-maven-deploy-plugin-2.7.jar>central=
-maven-deploy-plugin-2.7.pom>private-central=
