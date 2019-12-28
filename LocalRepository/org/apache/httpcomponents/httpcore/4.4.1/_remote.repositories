@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Dec 19 11:01:07 GMT+08:00 2019
+httpcore-4.4.1.jar>private-central=
+httpcore-4.4.1.pom>private-central=

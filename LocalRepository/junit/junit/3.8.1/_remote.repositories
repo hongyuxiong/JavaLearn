@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Dec 28 17:11:41 GMT+08:00 2019
+junit-3.8.1.jar>private-central=
+junit-3.8.1.pom>central=
+junit-3.8.1.jar>central=
+junit-3.8.1.pom>private-central=

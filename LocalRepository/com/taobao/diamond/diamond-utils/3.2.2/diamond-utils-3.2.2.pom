@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.taobao.diamond</groupId>
+	<artifactId>diamond-utils</artifactId>
+	<version>3.2.2</version>
+	<name>${pom.groupId}-${pom.artifactId}-${pom.version}</name>
+    
+    <build>
+      <plugins>
+            <plugin>
+        <artifactId>maven-eclipse-plugin</artifactId>
+        <version>2.5.1</version>
+        <configuration>
+          <downloadSources>true</downloadSources>
+          <downloadJavadocs>false</downloadJavadocs>
+          <useProjectReferences>true</useProjectReferences>
+          <projectNameTemplate>${project.artifactId}-${project.version}</projectNameTemplate>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+	<dependencies>
+		<dependency>
+            <groupId>com.taobao.middleware</groupId>
+            <artifactId>logger.api</artifactId>
+            <version>0.1.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-lgpl</artifactId>
+            <version>1.9.6</version>
+        </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.4</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<distributionManagement>
+        <repository>
+            <id>private-releases</id>
+            <url>http://116.62.222.54/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>private-snapshots</id>
+            <url>http://116.62.222.54/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
