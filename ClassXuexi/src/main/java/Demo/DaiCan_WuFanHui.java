@@ -9,9 +9,10 @@ class DaiCan_WuFanHui {
             }
         }
         public static void main(String args[]){
-            DaiCan_WuFanHui.print(5);  //5是实际参数    实际参数赋值给形式参数
-        }                              //需要保证实参和形参的数据类型和个数，顺序一致
-}                //   带参数无返回的方法调用，在main函数中输入参数
+            //5是实际参数    实际参数赋值给形式参数
+            DaiCan_WuFanHui.print(5);
+        }         //需要保证实参和形参的数据类型和个数，顺序一致
+}                //在main函数中输入参数调用带参数无返回的方法
 
 class qiuhe{
     public static void sum(int a,int b){
@@ -29,7 +30,8 @@ class diaoyong{
         int x = input.nextInt();
         System.out.println("请输入第二个数");
         int y = input.nextInt();
-        qiuhe.sum(x,y);  // 如果没有键盘输入，就要在sum的参数里面，填上实际参数，上面是键盘输入了实际参数
+        // 如果没有键盘输入，就要在sum的参数里面，填上实际参数，上面是键盘输入了实际参数
+        qiuhe.sum(x,y);
     }
 }
 

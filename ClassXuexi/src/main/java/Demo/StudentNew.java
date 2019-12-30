@@ -24,7 +24,8 @@ class studentTest{
         //一个类可以创建多个对象
         Student zs = new Student();
         //输出 引用名称zs中所有 的属性，引用名称.属性名称
-        System.out.println(zs.age);  //如果不赋值，就输出这个属性的数据类型的默认值
+        //如果不赋值，就输出这个属性的数据类型的默认值
+        System.out.println(zs.age);
         //  如果要对没有赋值的属性进行赋值，用这个语法格式   引用名称.属性名称 = 值； 来赋值
         //赋值写在main函数中比较好，这样上面的学生类可以重复使用
         zs.name = "张三";

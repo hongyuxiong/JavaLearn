@@ -71,9 +71,8 @@ class Cat extends JiChengTest{
     public void print(){
         System.out.println("名字"+super.name+"\n年龄"+super.age+"\n颜色"+super.color+"\n性别"+this.sex);
     }
-
-
-    /* 因为String也属于类，属于Object的子类。重写父类的getinfo方法,用父类方法返回类型的子类类型String
+    /**
+     因为String也属于类，属于Object的子类。重写父类的getinfo方法,用父类方法返回类型的子类类型String
      * 如果把getinfo写成getinfo2，那么在引用getinfo方法就会返回父类的null，因为重写需要方法名一致。
      * ****************
      * 重载是 在同一个类中，方法名必须相同，但是参数列表必须不同（个数，顺序,类型不同)，与返回值类型无关。
@@ -88,11 +87,20 @@ class Dog extends  JiChengTest {
 
     String strain;
 
-    //编写构造方法
+    /**
+     * 编写构造方法
+     */
     public Dog(){
         System.out.println("执行了子类的无参构造方法");
     }
-    //因为继承了父类的属性，所以可以在构造方法中传父类的参数。形参是局部变量，
+
+    /**
+     * 因为继承了父类的属性，所以可以在构造方法中传父类的参数。形参是局部变量
+     * @param name
+     * @param age
+     * @param color
+     * @param strain
+     */
     public Dog(String name, int age, String color,String strain ){
         /*
         可以用

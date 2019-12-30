@@ -22,7 +22,8 @@ class DaiCanShu_YouFanHui {
         System.out.println("请输入年龄：");
         int age = input.nextInt();
         System.out.println(result(age));
-        /* int  age = 21;
+        /**
+        int  age = 21;
         System.out.println(result(age));
         方法中的变量是局部变量，不同的方法变量同名是不影响的，是相互独立的。
         如果参数是未知的就要用带参数的，在方法中 放了参数

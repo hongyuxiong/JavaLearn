@@ -1,7 +1,9 @@
 package Demo;
 
 class StudentStatic {
-    //非静态属性，也叫实例变量
+    /**
+     * 非静态属性，也叫实例变量
+     */
     String name;
     String color;
     /*静态属性存放在方法区中，所有对象都可以访问，并且只存储一次
