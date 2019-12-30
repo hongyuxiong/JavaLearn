@@ -1,4 +1,4 @@
-package leiandduixiang;
+package Demo;
 
 class Car {
     //属性也叫成员变量,成员变量有默认值

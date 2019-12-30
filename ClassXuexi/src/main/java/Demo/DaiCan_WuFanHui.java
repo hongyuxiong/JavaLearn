@@ -1,3 +1,5 @@
+package Demo;
+
 import java.util.Scanner;
 
 class DaiCan_WuFanHui {

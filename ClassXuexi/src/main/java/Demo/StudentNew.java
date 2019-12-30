@@ -1,4 +1,4 @@
-package leiandduixiang;
+package Demo;
 
 //编写一个学生类
 class Student {

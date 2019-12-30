@@ -1,4 +1,4 @@
-package leiandduixiang;
+package Demo;
 
  class fengzhuang {
     //属性

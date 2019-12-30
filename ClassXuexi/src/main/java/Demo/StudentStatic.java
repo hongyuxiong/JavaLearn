@@ -1,4 +1,4 @@
-package leiandduixiang;
+package Demo;
 
 class StudentStatic {
     //非静态属性，也叫实例变量

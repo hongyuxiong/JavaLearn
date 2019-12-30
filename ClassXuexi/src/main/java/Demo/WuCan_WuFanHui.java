@@ -1,3 +1,5 @@
+package Demo;
+
 class WuCan_WuFanHui {
     public static void print() {
         //无参无返回  方法名不一定是main，main只是入口

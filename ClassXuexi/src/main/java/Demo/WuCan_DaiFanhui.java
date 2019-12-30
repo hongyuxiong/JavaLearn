@@ -1,3 +1,5 @@
+package Demo;
+
 class WuCan_DanFanhui {
     public  static  String result() {
         char ch = 'h';

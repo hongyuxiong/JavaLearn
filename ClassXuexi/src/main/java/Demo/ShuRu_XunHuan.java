@@ -1,3 +1,5 @@
+package Demo;
+
 import  java.util.Scanner;
 class Input11 {
     public static  void main(String[] args){

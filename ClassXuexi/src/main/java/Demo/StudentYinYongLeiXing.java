@@ -1,4 +1,4 @@
-package leiandduixiang;
+package Demo;
 
 class StudentYinYongLeiXing {
     String name;
