@@ -13,7 +13,9 @@ class WuCan_DanFanhui {
         return "其他字符";
     }
 }
-// 无参带返回    String int double  boolean char byte
+/**
+ * 无参带返回    String int double  boolean char byte
+ */
 class  DiaoYong{
     public static void main(String args[]){
         System.out.println(WuCan_DanFanhui.result());
