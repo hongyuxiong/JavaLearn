@@ -64,15 +64,20 @@ class money{
         System.out.println("总租金： "+bus.getSumRent(5));
         */
         /**
-        多态语法   父类类名  引用名称 = new 子类类名();
-        当构成多态时，引用名称是父类类型，只能访问父类中的实例变量和实例方法，但是优先访问子类重写以后的方法
-         //System.out.println(car.type); type是子类的实例变量，会报错。
-         堕胎是多个对象调用同一个方法得到不同的结果叫做多态
+         多态语法   父类类名  引用名称 = new 子类类名();
+         当构成多态时，引用名称是父类类型，只能访问父类中的实例变量和实例方法，但是优先访问子类重写以后的方法
+         多态是多个对象调用同一个方法得到不同的结果叫做多态
+
+         多态的条件:
+         1.子类必须继承父类
+         2.子类必须重写父类的方法
+         3.必须要构成多态的语法     父类类名  引用名称 = new 子类类名();
          */
         Vehicle car = new LittleCar();
         System.out.println("-----访问父类的实例变量------");
         System.out.println(car.brand);
         System.out.println(car.id);
+        //System.out.println(car.type); type是子类的实例变量，会报错。
         System.out.println("------调用父类的实例方法-----");
         car.print();
         System.out.println(car.getSumRent(1));
@@ -88,7 +93,6 @@ class money{
         v = new LittleCar();
         System.out.println("打印Car的租金");
         System.out.println("总租金" + v.getSumRent(2));
-
         System.out.println(System.identityHashCode(v));
 
 
