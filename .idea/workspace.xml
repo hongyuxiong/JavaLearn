@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f75162-dd43-4cb8-8395-7463c4485a13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/DaiCanShu_YouFanHui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/DaiCan_WuFanHui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/Diaoyong1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/HelloWorld$FangFaChongZai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/Input11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/Switch11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/WuCan_DanFanhui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/WuCan_WuFanHui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/continue1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/diaoyong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/dowhile01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/dowhile02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/for1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/for2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/for3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/if15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/if16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/input12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/input13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/input14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/BanJi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/CatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/JiChengTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/Stu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/StudentStatic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/StudentTestStatic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/StudentTestYinYong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/StudentYinYongLeiXing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/fengzhuang.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/leiandduixiang/fengzhuang2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/qiuhe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/switch17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassXuexi/target/classes/while1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassXuexi/src/main/java/Demo/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassXuexi/src/main/java/Demo/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1230" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,12 +62,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaLearn\ClassXuexi\src\main\java\Demo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaLearn\ClassXuexi\src\test\java" />
       <recent name="D:\JavaLearn\ClassXuexi\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaLearn\ClassXuexi\src\main\java\Demo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Diaoyong1 (1)">
@@ -235,7 +194,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577687384477</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'master' into test&#10;&#10;# Conflicts:&#10;#&#9;ClassXuexi/src/main/java/Demo/Car.java">
+      <created>1578298062730</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578298062730</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'master' into test&#10;&#10;# Conflicts:&#10;#&#9;ClassXuexi/src/main/java/Demo/Car.java">
+      <created>1578299280554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578299280554</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge branch 'master' into test&#10;&#10;# Conflicts:&#10;#&#9;ClassXuexi/src/main/java/Demo/Car.java">
+      <created>1578299924239</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578299924239</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,17 +226,18 @@
     <MESSAGE value="集合包" />
     <MESSAGE value="看看有没有test文件夹" />
     <MESSAGE value="整理注释，包名" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理注释，包名" />
+    <MESSAGE value="Merge branch 'master' into test&#10;&#10;# Conflicts:&#10;#&#9;ClassXuexi/src/main/java/Demo/Car.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' into test&#10;&#10;# Conflicts:&#10;#&#9;ClassXuexi/src/main/java/Demo/Car.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="281" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577524676258">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="281" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1577524676258" />
-    <state x="305" y="70" key="CommitChangelistDialog2" timestamp="1577688418078">
+    <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1578299922888">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="305" y="70" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1577688418078" />
+    <state x="305" y="0" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1578299922888" />
     <state x="590" y="242" key="FileChooserDialogImpl" timestamp="1577674786542">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -277,14 +258,30 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state width="787" height="252" key="GridCell.Tab.0.right/0.0.1920.1048@0.0.1920.1048" timestamp="1577688301672" />
+    <state x="183" y="82" key="MergeDialog" timestamp="1578299270486">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="183" y="82" key="MergeDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1578299270486" />
+    <state x="595" y="168" key="MultipleFileMergeDialog" timestamp="1578299270492">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="595" y="168" key="MultipleFileMergeDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1578299270492" />
     <state x="240" y="0" key="SettingsEditor" timestamp="1577685455014">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="240" y="0" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1577685455014" />
-    <state x="355" y="214" key="Vcs.Push.Dialog.v2" timestamp="1577687389800">
+    <state x="355" y="214" key="Vcs.Push.Dialog.v2" timestamp="1578300052374">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="355" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1577687389800" />
+    <state x="355" y="214" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1578300052374" />
+    <state x="662" y="165" key="git4idea.branch.GitSmartOperationDialog" timestamp="1578299251575">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="662" y="165" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1578299251575" />
+    <state x="596" y="265" key="git4idea.merge.GitPullDialog" timestamp="1578299348256">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="596" y="265" key="git4idea.merge.GitPullDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1578299348256" />
     <state x="23" y="202" key="new project wizard" timestamp="1577524797441">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
