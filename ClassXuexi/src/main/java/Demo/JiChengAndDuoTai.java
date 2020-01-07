@@ -1,4 +1,4 @@
-package leiandduixiang;
+package Demo;
 
 /**
  * 某汽车租赁公司有多种汽车可以出租，计算汽车的租金
@@ -73,6 +73,7 @@ class money{
          2.子类必须重写父类的方法
          3.必须要构成多态的语法     父类类名  引用名称 = new 子类类名();
          */
+
         Vehicle car = new LittleCar();
         System.out.println("-----访问父类的实例变量------");
         System.out.println(car.brand);
@@ -95,27 +96,8 @@ class money{
         System.out.println("总租金" + v.getSumRent(2));
         System.out.println(System.identityHashCode(v));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+
 }
 
 
