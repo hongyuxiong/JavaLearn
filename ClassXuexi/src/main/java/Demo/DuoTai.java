@@ -58,26 +58,25 @@ class Test2{
         /**
          * 多态有两种类型转换
          *分向上转型和向下转型
-         * 向上转型也叫做自动类型转换，构成多态，引用名称只能访问父类中的实例变量和实例方法，但是优先访问子类重写以后的方法
-         * 向下转型也叫强制类型转换，用于 访问子类独有的属性或方法时。
+         * 向上转型也叫做自动类型转换，构成多态时，引用名称只能访问父类中的实例变量和实例方法，但是优先访问子类重写以后的方法
+         * 向下转型也叫强制类型转换，构成多态时，访问子类独有的属性或方法，必须进行向下转型。
          */
-
-
-        //如果是多态，有需要访问子类独有的属性或方法必须向下转型
         Pet p;
-
         p = new BigCat();
         p = new BigDog();
 
-        /**转型失败,报错Demo.BigDog cannot be cast to Demo.BigCat，意思就是说狗不能转为猫
+        /**转型失败,报错  java.lang.ClassCastException    Demo.BigDog cannot be cast to Demo.BigCat，意思就是说狗不能强制转为猫（其他的子类）
          *  p已经引用了狗的对象，不能用来给猫用了，只能选一个
-         *  执行前先判断有点像CBS的逻辑，因为不知道入参是啥。这里是引用的对象是谁，这个对象应该可以从别的地方拿过来，这样就和CBS一样说得通了。
         BigCat cat = (BigCat)p;
         BigCat.play();
         BigDog dog = (BigDog)p;
         BigCat.play();
+         *
+         *
+         *
          **/
         //在进行向下转型之前，如果符合再向下转型，用instanceof关键字，instanceof表示引用的对象是谁
+        //执行前先判断有点像CBS的逻辑，因为不知道入参是啥。这里是引用的对象是谁，这个对象应该可以从别的地方拿过来，这样就和CBS一样说得通了。
         if(p instanceof BigCat){
             BigCat cat = (BigCat)p;
             BigCat.play();
