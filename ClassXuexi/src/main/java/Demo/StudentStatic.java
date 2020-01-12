@@ -39,7 +39,7 @@ class StudentStatic {
          * 只要对象（堆中的地址没有被销毁，）在，就可以访问对象的属性和方法，也可以访问类的属性和方法。
          */
     }
-    public StudentStatic(String name ){
+    public StudentStatic(String name){
         this.name = name;//构造方法，参数指向成员变量，用this
     }
 
