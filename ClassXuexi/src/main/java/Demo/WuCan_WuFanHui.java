@@ -33,7 +33,7 @@ class WuCan_WuFanHui {
         }
     }
 }
-
+//这个是无参带返回的，只是用来看方法的调用方式
 class Switch11{
     public static String getInfo(){
         String week = "星期五";

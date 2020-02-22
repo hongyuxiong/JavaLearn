@@ -129,6 +129,24 @@ class  switch17{
     }
 }
 
+class switch18{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String info = input.next();
+        switch (info){
+            case"第一名":
+                System.out.println("奖励1w");
+                break;
+            case"第二名":
+                System.out.println("奖励2w");
+                break;
+            default:
+                System.out.println("奖励大狗熊");
+
+        }
+    }
+}
+
 class  for1{
     public static void main(String args[]){
         int count =0;
@@ -184,7 +202,7 @@ class  while1{
         int i=1;
         int count = 0;
         while(i<=100) {
-            i++;//循环写在这里比较好
+            i++;//循环写在这里不容易忘记
             if (i % 4 == 0) {
                 System.out.print(i + "\t");
                 count++;

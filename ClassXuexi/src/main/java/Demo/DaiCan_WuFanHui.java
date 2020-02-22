@@ -24,7 +24,7 @@ class qiuhe{
 
 class diaoyong{
     public static void main(String args[]){
-        //键盘输入放在main函数里面，
+        //键盘输入放在main函数里面
         Scanner input = new Scanner(System.in);
         System.out.println("请输入第一个数");
         int x = input.nextInt();

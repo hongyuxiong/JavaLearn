@@ -50,7 +50,7 @@ public class JiChengTest {
  */
 
 
-class Cat extends JiChengTest{
+class Cata extends JiChengTest{
     char sex;
 
  /*
@@ -178,7 +178,7 @@ class Dog extends  JiChengTest {
 
 class Test1{
     public static void main(String[] args) {
-        Cat c = new Cat();
+        Cata c = new Cata();
         // print方法中的内容先去子类也就是cat类中找，找不到就去父类中找，找到的话就是覆盖。
         //因此，想要打印完整的cat类中所有属性的语句，需要自己另外写一条，这样在子类中就可以找到了。
         c.print();
