@@ -7,7 +7,7 @@ class BanJi {
     String address;
 
 
-    //在无参构造函数中没有给成员变量赋值，
+    //在无参构造函数中没有给成员变量赋值
     public  BanJi(){
 
     }
