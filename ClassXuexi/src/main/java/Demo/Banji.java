@@ -30,7 +30,7 @@ class Stu{
     int age;
     BanJi n = new BanJi();
     //属性在声明时就给他赋值，不赋值n在内存空间中就是是null，n在内存空间中有id,name,address三个实例变量，所以只需要创建一个n就够了。
-    //n在新建对象时是属性，所以n可以  .  到对象中的id，name，address
+    //为了获得Banji类中的对象，就需要写成BanJi n = new BanJi();n是给对象起了一个名字。 因此n可以  .  到对象中的id，name，address
     // s在引用下面的print方法中有引用名称.属性名称时会报空指针异常，
     // 班级名称在这里用班级的类名作为这个成员变量的类型
 
